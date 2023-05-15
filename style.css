@@ -1,0 +1,111 @@
+* {
+    border: 0;
+    
+    /* overflow: hidden; */
+}
+body{
+    background-color: white;
+}
+
+
+header {
+    background: linear-gradient(45deg, #ff9900, #ff5e62);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left span {
+    margin-right: 20px;
+    font-size: 30px;
+    background: linear-gradient(to right, #348f50, #56b4d3);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    margin-right: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px lightblue;
+
+}
+
+/* nav ul li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav ul li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */
+
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content {
+/* display: flex;
+flex-direction: row;
+justify-content: space-around; */
+
+
+    /* display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr;
+    gap: 10px; */
+}
+
+.যখন {
+    background-color: rgb(235, 227, 227);
+    color: rgb(64, 49, 20);
+    overflow-wrap: break-word;
+    padding: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content:  space-between ;
+}
+
+.তোমায় {
+    background-color: rgb(235, 227, 227);
+    color: rgb(64, 49, 20);
+    padding: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content:  space-between ;
+}
+
+.মানুষ {
+    background-color: rgb(235, 227, 227);
+    color: rgb(64, 49, 20);
+    padding: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content:  space-between ;
+}
